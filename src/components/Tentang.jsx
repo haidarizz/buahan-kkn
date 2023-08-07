@@ -28,7 +28,7 @@ const Tentang = () => {
       <div className="flex flex-col xl:flex-row justify-center items-center pb:7 lg:pb-10 pt-7 lg:pt-10">
         <div
           className="px-[32px] aspect-video xl:pr-10 xl:pl-0 xl:w-1/2 h-[240px] w-full sm:w-[500px] md:w-[520px] lg:h-[360px] lg:w-[664px]"
-          data-aos="fade"
+          data-aos="fade-down"
         >
           <iframe
             src="https://www.youtube.com/embed/4bHUsy74Fss"
@@ -41,13 +41,15 @@ const Tentang = () => {
         </div>
         <div
           className="flex flex-col justify-center xl:pl-10 px-[32px] xl:pr-0 xl:w-1/2"
-          data-aos="fade"
+          data-aos="fade-down"
         >
           <p className="font-opensans text-md lg:text-xl text-justify mb-7 pt-6 xl:pt-0">
-            Desa Dinas Buahan adalah salah satu desa di Kecamatan Payangan,
-            Kabupaten Gianyar, provinsi Bali, Indonesia. Desa ini memiliki hawa
-            yang sejuk dan terkadang dingin sehingga cocok untuk lahan pertanian
-            dan perkebunan.
+            Desa Dinas Buahan: Keindahan Tropis di Pelukan Pegunungan Bali.
+            Tersembunyi di Kecamatan Payangan, Kabupaten Gianyar, Bali, Desa
+            Dinas Buahan adalah permata alam yang menakjubkan. Dengan iklim
+            sejuk dan kadang dingin, desa ini menciptakan lingkungan ideal bagi
+            pertanian dan perkebunan yang makmur. Mengajak Anda menikmati pesona
+            tropis yang memukau di kaki pegunungan Bali.
           </p>
           <a
             href="/profil"

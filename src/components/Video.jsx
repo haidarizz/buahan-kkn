@@ -21,7 +21,7 @@ const Video = () => {
           <div className="flex flex-col items-center justify-center mx-[32px] xl:mx-0 mt-6 lg:mt-10">
             <div
               className="aspect-video h-fit w-full"
-              data-aos="fade-right"
+              data-aos="flip-left"
             >
               <iframe
                 src="https://www.youtube.com/embed/4bHUsy74Fss"

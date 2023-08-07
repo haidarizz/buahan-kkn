@@ -1,5 +1,5 @@
 import React from "react";
-import nature from "../image/nature.jpg";
+import nature from "../image/sawah/6.JPG";
 import Navbar from "../components/Navbar";
 import Upper from "../components/Upper";
 import Mapfull from "../components/Mapfull";

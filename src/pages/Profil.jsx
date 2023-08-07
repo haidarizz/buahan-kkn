@@ -1,5 +1,5 @@
 import React from "react";
-import nature from "../image/nature.jpg";
+import nature from "../image/piuning/5.jpg";
 import Navbar from "../components/Navbar";
 import Upper from "../components/Upper";
 import Deskripsi from "../components/Deskripsi";

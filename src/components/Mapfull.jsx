@@ -235,7 +235,7 @@ const Mapfull = () => {
       <div className="flex flex-col justify-center items-center pb:4 lg:pb-8 pt-7 lg:pt-10">
         <div
           className="px-[32px] aspect-video h-[480px] w-full sm:w-full md:w-full lg:h-full lg:w-full"
-          data-aos="fade"
+          data-aos="flip-left"
         >
           <MapContainer
             className="shadow-lg shadow-darkgreen"

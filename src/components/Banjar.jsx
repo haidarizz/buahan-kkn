@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import "../styles.css";
 import "leaflet/dist/leaflet.css";
 import { MapContainer, TileLayer, Marker, Popup, Polygon } from "react-leaflet";
-import MarkerClusterGroup from "react-leaflet-cluster";
 import { Icon, divIcon, point } from "leaflet";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -237,7 +236,7 @@ const Banjar = () => {
       <div className="flex flex-col xl:flex-row justify-center items-center pb:7 lg:pb-10 pt-7 lg:pt-10">
         <div
           className="px-[32px] aspect-video xl:pr-10 xl:pl-0 xl:w-1/2 h-[240px] w-full sm:w-[500px] md:w-[520px] lg:h-[360px] lg:w-[664px]"
-          data-aos="fade"
+          data-aos="flip-left"
         >
           <MapContainer
             className="shadow-lg shadow-darkgreen"

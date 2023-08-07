@@ -23,18 +23,34 @@ const Deskripsi = () => {
         <div className="bg-white m-[5px]">
           <div className="px-[16px] pt-[16px] pb-[22px] flex flex-col items-center">
             <p className="font-opensans text-md lg:text-xl text-justify mb-6">
-              Desa Dinas Buahan adalah salah satu desa di Kecamatan Payangan,
-              Kabupaten Gianyar, provinsi Bali, Indonesia. Desa ini memiliki
-              hawa yang sejuk dan terkadang dingin sehingga cocok untuk lahan
-              pertanian dan perkebunan. Selain itu, desa ini memiliki
-              pemandangan dengan latar pegunungan dan hutan yang indah sehingga
-              di desa ini berkembang juga sektor pariwisata seperti Hotel,
-              Villa, dan Bungalow namun belum sebesar sektor pertanian,
-              perkebunan, dan peternakan. Mayoritas penduduk bermata pencaharian
-              sebagai Petani dan Peternak dan sebagian kecil lainya berprofesi
-              sebagai PNS, Wiraswasta, Guru, dll. Kantor Kepala Desa terdapat di
-              Banjar Dinas Buahan, begitu juga dengan puskesmas pembantunya. Di
-              bawah ini adalah link menuju website resmi Desa Buahan.
+              Selamat datang di Desa Dinas Buahan: Mahakarya Keindahan di
+              Pelukan Pegunungan Bali! Mengintip dari jendela alam, ada satu
+              tempat yang menawarkan keindahan alam yang menakjubkan dan hawa
+              yang sejuk di tengah hamparan hijau dan udara segar yang
+              menggelitik. Terletak di Kecamatan Payangan, Kabupaten Gianyar,
+              Desa Dinas Buahan adalah surga tersembunyi di pulau Dewata, Bali,
+              yang memanjakan jiwa petualang dan pencinta keindahan alam.
+              Berkeliling di desa ini, Anda akan disuguhkan dengan panorama
+              menakjubkan, dengan latar belakang pegunungan yang menjulang
+              tinggi dan hutan lebat yang memberikan ketenangan sejati. Namun,
+              jangan anggap desa ini hanya menawarkan pemandangan alam semata.
+              Di balik keindahan ini, terdapat ragam kemungkinan petualangan
+              yang tak terlupakan. Bukan hanya destinasi wisata biasa, Desa
+              Dinas Buahan telah bertransformasi menjadi pusat pariwisata yang
+              menawarkan penginapan yang eksklusif dan nyaman seperti hotel,
+              villa, dan bungalow mewah yang menyatu dengan alam. Namun, tetap
+              terasa adem karena sektor pertanian, perkebunan, dan peternakan
+              tetap menjadi jantung desa ini. Menjadi bagian dari desa ini
+              adalah menghirup kesejukan alam dan hidup berdampingan dengan
+              penduduk lokal yang ramah, sebagian besar adalah petani dan
+              peternak yang menjaga akar budaya dan kehidupan desa tetap hidup.
+              Dari aktivitas sehari-hari hingga perayaan lokal yang meriah, Desa
+              Dinas Buahan adalah titik temu antara kemodernan dan keaslian.
+              Jika Anda siap menggali pesona alam yang belum terjamah dan
+              merasakan sentuhan kehidupan desa yang otentik, jangan lewatkan
+              kesempatan ini. Kunjungi website resmi Desa Dinas Buahan sekarang
+              untuk merencanakan petualangan Anda menuju cakrawala baru
+              keindahan Bali yang sesungguhnya.
             </p>
             <a
               target="_blank"

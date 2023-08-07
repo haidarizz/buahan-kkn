@@ -29,28 +29,23 @@ const Mapwisata = () => {
   const markers = [
     {
       geocode: [-8.395278, 115.236842],
-      popUp: "Banjar Dinas Buahan",
-      link: "/",
+      popUp: "Agrowisata",
+      link: "/agrowisata",
     },
     {
       geocode: [-8.411695, 115.236481],
-      popUp: "Banjar Dinas Susut",
-      link: "/",
+      popUp: "Air Terjun",
+      link: "/airterjun",
     },
     {
       geocode: [-8.382554, 115.236322],
-      popUp: "Banjar Dinas Jaang",
-      link: "/",
+      popUp: "Budaya",
+      link: "/budaya",
     },
     {
       geocode: [-8.374139, 115.250165],
-      popUp: "Banjar Dinas Gambih",
-      link: "/",
-    },
-    {
-      geocode: [-8.409066, 115.231905],
-      popUp: "Banjar Dinas Satung",
-      link: "/",
+      popUp: "Landscape",
+      link: "/landscape",
     },
   ];
   const polygon = [
@@ -237,7 +232,7 @@ const Mapwisata = () => {
       <div className="flex flex-col justify-center items-center pb:4 lg:pb-8 pt-7 lg:pt-10">
         <div
           className="px-[32px] aspect-video h-[480px] w-full sm:w-full md:w-full lg:h-full lg:w-full"
-          data-aos="fade"
+          data-aos="flip-left"
         >
           <MapContainer
             className="shadow-lg shadow-darkgreen"

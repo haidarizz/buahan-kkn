@@ -1,11 +1,9 @@
 import React, { useEffect } from "react";
 import Carousel from "./Carousel";
-import nature from "../image/nature.jpg";
-import dummy1 from "../image/dummy1.jpg";
-import dummy2 from "../image/dummy2.jpg";
-import dummy3 from "../image/dummy3.jpg";
-import dummy4 from "../image/dummy4.jpg";
-import daun from "../image/daun.jpg";
+import dummy1 from "../image/sawah/1.JPG";
+import dummy2 from "../image/sawah/2.JPG";
+import dummy3 from "../image/sawah/3.JPG";
+import dummy4 from "../image/sawah/4.JPG";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -28,22 +26,27 @@ const Potensi = () => {
       <div className="flex flex-col-reverse xl:flex-row justify-center items-center pb:7 lg:pb-10 pt-7 lg:pt-10">
         <div
           className="flex flex-col justify-center xl:pr-10 px-[32px] xl:pl-0 xl:w-1/2"
-          data-aos="fade"
+          data-aos="fade-down"
         >
-          <p className="font-opensans text-md lg:text-xl text-justify mb-7 pt-6 lg:pt-24 xl:pt-0 text-white">
-            Desa Buahan, sebagai destinasi di dataran tinggi, memiliki potensi
-            utama yang dapat menarik minat para pengunjung. Pemandangan sawah
-            yang menghampar luas, menawarkan pesona alam yang menakjubkan dan
-            memikat mata. Selain itu, kesejukan udara pegunungan memberikan
-            sensasi menyegarkan bagi para wisatawan yang mencari ketenangan dari
-            hiruk-pikuk kota. Desa ini menyimpan beragam tempat tersembunyi yang
-            menawarkan keindahan yang jarang ditemui di tempat lain. Semua
-            potensi ini membuat Desa Buahan berpeluang besar untuk dikembangkan
-            sebagai tujuan wisata yang memikat. Desa Buahan menawarkan beberapa
-            tempat menarik yang berpotensi menjadi daya tarik wisata, seperti
-            hutan hijau yang rimbun dan kearifan lokal yang unik. Dengan upaya
-            pengembangan yang tepat, Desa Buahan dapat menarik lebih banyak
-            wisatawan dan memberikan manfaat ekonomi bagi masyarakat setempat.
+          <p className="font-opensans text-md lg:text-xl text-justify mb-7 pt-6 lg:pt-10 xl:pt-0 text-white">
+            Selamat datang di website Desa Buahan, destinasi yang menggoda
+            selera petualangan dan keindahan alam!
+            Dalam langkah inovatif menuju kemajuan pariwisata lokal, kami
+            membuka pintu wawasan mendalam ke pesona alam Desa Buahan yang belum
+            terungkap. Dari hamparan sawah yang menghijau hingga lekuk-lekuk
+            bukit yang menakjubkan, informasi terperinci tentang setiap sudut
+            destinasi ini dapat dengan mudah ditemukan di halaman khusus kami.
+            Tidak lagi perlu bertanya-tanya tentang apa yang bisa Anda temukan
+            di Desa Buahan. Dengan panduan lengkap tentang objek wisata,
+            aktivitas menarik, dan kekayaan budaya lokal, kami menyajikan
+            semuanya di satu tempat yang nyaman. Kami memiliki
+            informasi terkini dan terpercaya untuk semua kebutuhan petualangan
+            Anda. Jangan lewatkan kesempatan untuk merasakan pesona autentik
+            Desa Buahan. Kami mengundang Anda untuk menjelajahi website kami dan
+            merencanakan perjalanan tak terlupakan ke destinasi yang memikat
+            ini. Dengan Informasi Potensi Wisata kami, mari kita bersama-sama
+            mengukir kenangan luar biasa di tengah keajaiban alam Desa Buahan
+            yang menanti untuk diungkapkan.
           </p>
           <a
             target="_blank"
@@ -55,7 +58,7 @@ const Potensi = () => {
         </div>
         <div
           className="px-[32px] xl:pl-10 xl:pr-0 xl:w-1/2 h-fit w-fit lg:h-[360px] lg:w-[640px] flex items-center"
-          data-aos="fade"
+          data-aos="fade-down"
         >
           <Carousel>
             {[

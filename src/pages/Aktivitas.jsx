@@ -1,5 +1,5 @@
 import React from "react";
-import nature from "../image/nature.jpg";
+import cover from "../image/pesrak/15.JPG";
 import Navbar from "../components/Navbar";
 import Upper from "../components/Upper";
 import Cardkegiatan from "../components/Cardkegiatan";
@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 
 const Aktivitas = () => {
   const backgroundImageStyle = {
-    backgroundImage: `url("${nature}")`,
+    backgroundImage: `url("${cover}")`,
     backgroundSize: "cover",
     backgroundPosition: "center",
   };

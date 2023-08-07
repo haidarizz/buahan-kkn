@@ -220,7 +220,7 @@ const Peta = () => {
   return (
     <>
       <div className="py-7 px-0 sm:px-[70px] md:px-[120px] lg:px-[180px] xl:px-[240px] border-y-8 border-t-lightgreen border-b-lightgreen bg-opacity-50">
-        <div className="flex justify-center items-center" data-aos='fade-down'>
+        <div className="flex justify-center items-center" data-aos="fade-down">
           <h1 className="md:text-5xl sm:text-4xl text-3xl font-bold font-dmserif text-darkgreen">
             Peta Geografis
           </h1>
@@ -229,8 +229,15 @@ const Peta = () => {
           </h1>
         </div>
         <div className="flex flex:1 flex-col xl:flex-row justify-center items-center pb:7 lg:pb-10 pt-7 lg:pt-10">
-          <div className="z-0 px-[32px] xl:pr-10 xl:pl-0 xl:w-1/2 h-[240px] w-full sm:w-[500px] md:w-[520px] lg:h-[360px] lg:w-[664px]" data-aos='fade'>
-            <MapContainer className='shadow-lg shadow-darkgreen' center={[-8.391615, 115.236398]} zoom={12}>
+          <div
+            className="z-0 px-[32px] xl:pr-10 xl:pl-0 xl:w-1/2 h-[240px] w-full sm:w-[500px] md:w-[520px] lg:h-[360px] lg:w-[664px]"
+            data-aos="fade-down"
+          >
+            <MapContainer
+              className="shadow-lg shadow-darkgreen"
+              center={[-8.391615, 115.236398]}
+              zoom={12}
+            >
               {/* OPEN STREEN MAPS TILES */}
               <TileLayer
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -277,19 +284,18 @@ const Peta = () => {
               <Polygon pathOptions={purpleOptions} positions={polygon} />
             </MapContainer>
           </div>
-          <div className="flex flex-col justify-center xl:pl-10 px-[32px] xl:pr-0 xl:w-1/2" data-aos='fade'>
+          <div
+            className="flex flex-col justify-center xl:pl-10 px-[32px] xl:pr-0 xl:w-1/2"
+            data-aos="fade-down"
+          >
             <p className="font-opensans text-md lg:text-xl text-justify mb-7 pt-6 xl:pt-0">
-              Desa Dinas Buahan adalah salah satu desa di Kecamatan Payangan,
-              Kabupaten Gianyar, provinsi Bali, Indonesia. Desa ini memiliki
-              hawa yang sejuk dan terkadang dingin sehingga cocok untuk lahan
-              pertanian dan perkebunan. Selain itu, desa ini memiliki
-              pemandangan dengan latar pegunungan dan hutan yang indah sehingga
-              di desa ini berkembang juga sektor pariwisata seperti Hotel,
-              Villa, dan Bungalow namun belum sebesar sektor pertanian,
-              perkebunan, dan peternakan. Mayoritas penduduk bermata pencaharian
-              sebagai Petani dan Peternak dan sebagian kecil lainya berprofesi
-              sebagai PNS, Wiraswasta, Guru, dll. Kantor Kepala Desa terdapat di
-              Banjar Dinas Buahan, begitu juga dengan puskesmas pembantunya.
+              Jelajahi keajaiban Desa Buahan melalui pengalaman interaktif peta
+              kami. Temukan setiap sudut indah dengan mudah, temukan jalur
+              pintas yang tersembunyi, dan nikmati informasi mendalam tentang
+              destinasi menarik. Dengan peta interaktif kami, Anda tidak hanya
+              melihat, tetapi merasakan kehidupan dan kebudayaan kami dalam
+              detail visual yang mengesankan. Segera mulai petualangan Anda dan
+              temukan pesona kami dengan cara yang baru dan menarik.
             </p>
             <a
               target="_blank"

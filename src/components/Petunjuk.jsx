@@ -16,7 +16,7 @@ const Petunjuk = () => {
           Website
         </h1>
       </div>
-      <div className="flex flex-col items-center justify-center mx-[32px] xl:mx-0 bg-gradient-to-tr from-darkgreen to-lightgreen mt-6 lg:mt-10" data-aos='fade'>
+      <div className="flex flex-col items-center justify-center mx-[32px] xl:mx-0 bg-gradient-to-tr from-darkgreen to-lightgreen mt-6 lg:mt-10" data-aos='fade-down'>
           <div className="bg-white m-[5px]">
             <div className="px-[16px] pt-[16px] pb-[22px] flex flex-col items-center">
           <p className="font-opensans text-md lg:text-xl text-justify mb-6">

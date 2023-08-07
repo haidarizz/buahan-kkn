@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
-import nature from "../image/nature.jpg";
+import piuning from "../image/piuning/3.jpg";
+import ngaben from "../image/ngaben/3.JPG";
+import pesrak from "../image/pesrak/9.JPG";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -17,73 +19,78 @@ const Cardkegiatan = () => {
           Buahan
         </h1>
       </div>
-      <div className="flex flex-col lg:flex-row justify-center items-center mb-4 lg:mb-4 pt-7 lg:pt-10" data-aos='fade-down'>
-        <div className="flex flex-col bg-gradient-to-tr from-darkgreen to-lightgreen w-full lg:w-1/3 mx-3 p-2 mb-4 lg:mb-0 shadow-lg shadow-green">
+      <div
+        className="flex flex-col lg:flex-row justify-center items-center mb-4 lg:mb-4 pt-7 lg:pt-10"
+      >
+        <div className="flex flex-col bg-gradient-to-tr from-darkgreen to-lightgreen w-full lg:w-1/3 mx-3 p-2 mb-4 lg:mb-0 shadow-lg shadow-green" data-aos="flip-left">
           <div className="bg-white w-full px-4 pt-4 pb-6">
             <div className="overflow-hidden mb-4 shadow-sm">
               <img
                 alt="img"
-                src={nature}
-                className="w-full hover:scale-[1.2] object-cover transition-all duration-300 ease-in-out"
+                src={piuning}
+                className="w-full hover:scale-[1.2] object-cover transition-all duration-300 ease-in-out lg:h-[245px]"
               ></img>
             </div>
             <h1 className="font-bold font-dmserif text-darkgreen text-xl mb-2">
-              Potensi wisata A
+              Matur Piuning
             </h1>
-            <p className="font-opensans mb-5">
-              Lorem ipsum de amor fucking motherfucker
+            <p className="font-opensans mb-5 text-justify">
+              Raih keselamatan melalui Matur Piuning, upacara suci memohon restu
+              Tuhan dan leluhur. Lindungi hidup Anda dengan kebijaksanaan
+              spiritual.
             </p>
             <a
-              target="_blank"
-              href="https://buahan-gianyar.desa.id/"
+              href="/matur-piuning"
               className="text-sm text-center lg:text-md px-4 py-2 bg-yellow text-darkgreen hover:bg-darkgreen hover:bg-opacity-100 hover:font-extrabold hover:text-yellow transition-all duration-200 w-auto font-opensans font-medium"
             >
               Selengkapnya
             </a>
           </div>
         </div>
-        <div className="flex flex-col bg-gradient-to-tr from-darkgreen to-lightgreen w-full lg:w-1/3 mx-3 p-2 mb-4 lg:mb-0 shadow-lg shadow-green">
+        <div className="flex flex-col bg-gradient-to-tr from-darkgreen to-lightgreen w-full lg:w-1/3 mx-3 p-2 mb-4 lg:mb-0 shadow-lg shadow-green" data-aos="flip-left">
           <div className="bg-white w-full px-4 pt-4 pb-6">
             <div className="overflow-hidden mb-4 shadow-sm">
               <img
                 alt="img"
-                src={nature}
-                className="w-full hover:scale-[1.2] object-cover transition-all duration-300 ease-in-out"
+                src={ngaben}
+                className="w-full hover:scale-[1.2] object-cover transition-all duration-300 ease-in-out lg:h-[245px]"
               ></img>
             </div>
             <h1 className="font-bold font-dmserif text-darkgreen text-xl mb-2">
-              Potensi wisata A
+              Upacara Ngaben
             </h1>
-            <p className="font-opensans mb-5">
-              Lorem ipsum de amor fucking motherfucker
+            <p className="font-opensans mb-5 text-justify">
+              Ngaben, upacara sakral Bali yang memperingati kematian,
+              menghormati leluhur, dan membebaskan roh. Ritual suci yang
+              mencerahkan.
             </p>
             <a
-              target="_blank"
-              href="https://buahan-gianyar.desa.id/"
+              href="/ngaben"
               className="text-sm text-center lg:text-md px-4 py-2 bg-yellow text-darkgreen hover:bg-darkgreen hover:bg-opacity-100 hover:font-extrabold hover:text-yellow transition-all duration-200 w-auto font-opensans font-medium"
             >
               Selengkapnya
             </a>
           </div>
         </div>
-        <div className="flex flex-col bg-gradient-to-tr from-darkgreen to-lightgreen w-full lg:w-1/3 mx-3 p-2 mb-4 lg:mb-0 shadow-lg shadow-green">
+        <div className="flex flex-col bg-gradient-to-tr from-darkgreen to-lightgreen w-full lg:w-1/3 mx-3 p-2 mb-4 lg:mb-0 shadow-lg shadow-green" data-aos="flip-left">
           <div className="bg-white w-full px-4 pt-4 pb-6">
             <div className="overflow-hidden mb-4 shadow-sm">
               <img
                 alt="img"
-                src={nature}
-                className="w-full hover:scale-[1.2] object-cover transition-all duration-300 ease-in-out"
+                src={pesrak}
+                className="w-full hover:scale-[1.2] object-cover transition-all duration-300 ease-in-out lg:h-[245px]"
               ></img>
             </div>
             <h1 className="font-bold font-dmserif text-darkgreen text-xl mb-2">
-              Potensi wisata A
+              Pesta Rakyat
             </h1>
-            <p className="font-opensans mb-5">
-              Lorem ipsum de amor fucking motherfucker
+            <p className="font-opensans mb-5 text-justify">
+              Pesta rakyat meriah di Desa Buahan, merayakan akhir perjalanan KKN
+              UGM. Suksesnya misi, kenangan, dan harapan terangkum dalam sorak
+              kegembiraan.
             </p>
             <a
-              target="_blank"
-              href="https://buahan-gianyar.desa.id/"
+              href="/pesta-rakyat"
               className="text-sm text-center lg:text-md px-4 py-2 bg-yellow text-darkgreen hover:bg-darkgreen hover:bg-opacity-100 hover:font-extrabold hover:text-yellow transition-all duration-200 w-auto font-opensans font-medium"
             >
               Selengkapnya

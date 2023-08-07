@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-scroll";
 import Typed from "react-typed";
-import nature from "../image/nature.jpg";
+import cover from "../image/cover4.jpg";
 
 const Hero = () => {
   const backgroundImageStyle = {
-    backgroundImage: `url("${nature}")`,
+    backgroundImage: `url("${cover}")`,
     backgroundSize: "cover",
     backgroundPosition: "center",
   };
@@ -15,15 +15,15 @@ const Hero = () => {
       style={backgroundImageStyle}
     >
       <div className="max-w-[800px] w-full h-screen mx-auto text-center flex flex-col justify-center">
-        <h1 className="md:text-6xl sm:text-5xl text-4xl md:py-6 font-bold font-dmserif text-darkgreen">
+        <h1 className="md:text-6xl sm:text-5xl text-4xl md:py-6 font-bold font-dmserif text-lightgreen drop-shadow-lg">
           Mengembara
         </h1>
         <div className="flex justify-center items-center">
-          <p className="md:text-7xl sm:text-6xl text-5xl font-bold py-4 font-dmserif text-darkgreen">
+          <p className="md:text-7xl sm:text-6xl text-5xl font-bold py-4 font-dmserif text-lightgreen drop-shadow-lg">
             Desa
           </p>
           <Typed
-            className="md:text-7xl sm:text-6xl text-5xl font-bold md:pl-4 pl-2 font-dmserif text-brown"
+            className="md:text-7xl sm:text-6xl text-5xl font-bold md:pl-4 pl-2 font-dmserif text-yellow drop-shadow-lg"
             strings={["Buahan", "Buahan", "Buahan"]}
             typeSpeed={120}
             backSpeed={140}
