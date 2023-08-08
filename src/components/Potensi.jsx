@@ -49,8 +49,7 @@ const Potensi = () => {
             yang menanti untuk diungkapkan.
           </p>
           <a
-            target="_blank"
-            href="https://buahan-gianyar.desa.id/"
+            href="/wisata"
             className="text-center ml-0 text-sm lg:text-md px-7 py-1.5 border-y-4 border-y-transparent bg-yellow bg-opacity-70 hover:bg-yellow hover:bg-opacity-100 hover:font-extrabold border-transparent hover:border-b-brown w-[150px] font-opensans font-medium mx-auto text-darkgreen"
           >
             Selengkapnya

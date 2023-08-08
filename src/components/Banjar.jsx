@@ -241,7 +241,7 @@ const Banjar = () => {
           <MapContainer
             className="shadow-lg shadow-darkgreen"
             center={[-8.391615, 115.236398]}
-            zoom={13}
+            zoom={12.5}
           >
             {/* OPEN STREEN MAPS TILES */}
             <TileLayer

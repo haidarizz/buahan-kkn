@@ -4,7 +4,7 @@ import footerimg from "../image/footer2.png";
 const Footer = () => {
   return (
     <div className="z-0">
-      <div className="mt-[-45px] md:mt-[-90px] lg:mt-[-180px] xl:mt-[-240px]">
+      <div className="mt-[-55px] md:mt-[-90px] lg:mt-[-180px] xl:mt-[-240px]">
         <img alt="img" src={footerimg} />
       </div>
       <div className="flex flex-col md:flex-row justify-between items-center bg-darkgreen mt-[-3px] pb-[32px] px-[32px] sm:pb-[70px] md:pb-[100px] sm:px-[70px] md:px-[120px] lg:px-[180px] xl:px-[240px]">

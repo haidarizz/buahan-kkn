@@ -16,22 +16,26 @@ const Petunjuk = () => {
           Website
         </h1>
       </div>
-      <div className="flex flex-col items-center justify-center mx-[32px] xl:mx-0 bg-gradient-to-tr from-darkgreen to-lightgreen mt-6 lg:mt-10" data-aos='fade-down'>
-          <div className="bg-white m-[5px]">
-            <div className="px-[16px] pt-[16px] pb-[22px] flex flex-col items-center">
-          <p className="font-opensans text-md lg:text-xl text-justify mb-6">
-          Website ini juga menyediakan manual book untuk mempermudah penggunaan. Dapatkan panduan lengkap dan jelas dalam satu tempat. Simplifikasi pengalamanmu di bawah ini!
-          </p>
-          <a
-            target="_blank"
-            href="https://buahan-gianyar.desa.id/"
-            className="text-sm text-center lg:text-md px-7 py-1.5 border-y-4 border-y-transparent bg-yellow bg-opacity-70 hover:bg-yellow hover:bg-opacity-100 hover:font-extrabold hover:text-darkgreen border-transparent hover:border-b-brown w-[150px] font-opensans font-medium mx-auto text-darkgreen"
-          >
-            Selengkapnya
-          </a>
-          </div>
+      <div
+        className="flex flex-col items-center justify-center mx-[32px] xl:mx-0 bg-gradient-to-tr from-darkgreen to-lightgreen mt-6 lg:mt-10"
+        data-aos="fade-down"
+      >
+        <div className="bg-white m-[5px]">
+          <div className="px-[16px] pt-[16px] pb-[22px] flex flex-col items-center">
+            <p className="font-opensans text-md lg:text-xl text-justify mb-6">
+              Website ini juga menyediakan manual book untuk mempermudah
+              penggunaan. Dapatkan panduan lengkap dan jelas dalam satu tempat.
+              Simplifikasi pengalamanmu di bawah ini!
+            </p>
+            <a
+              href="/petunjuk"
+              className="text-sm text-center lg:text-md px-7 py-1.5 border-y-4 border-y-transparent bg-yellow bg-opacity-70 hover:bg-yellow hover:bg-opacity-100 hover:font-extrabold hover:text-darkgreen border-transparent hover:border-b-brown w-[150px] font-opensans font-medium mx-auto text-darkgreen"
+            >
+              Selengkapnya
+            </a>
           </div>
         </div>
+      </div>
     </div>
   );
 };
